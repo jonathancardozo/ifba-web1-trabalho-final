@@ -6,3 +6,7 @@ Trabalho de Conclusão da Matéria
 ========================
 
 Trabalho de conclusão da matéria Desenvolvimento Web I do IFBA Euclides da Cunha.
+
+Guia prático do GIT
+http://rogerdudler.github.io/git-guide/index.pt_BR.html
+
