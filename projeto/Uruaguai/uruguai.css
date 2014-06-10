@@ -1,0 +1,84 @@
+body {
+	font-family:  Century Gothic,sans-serif, Helvetica, Arial;
+	background-image:url("imagens/uruguai.jpg");
+	color: white;
+	width: 92vw;
+	margin: 1em;
+	padding: 2em;
+	border: 1px solid blue;	
+	text-align: justify;	
+}
+
+h1 
+	{
+	color:black;
+	text-transform: 150px white;
+	text-shadow: 5px 6px 10px blue;
+	background-color: none;
+	font-size: 50px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+	h3
+	{
+	color:white;
+	text-transform: 150px blue;
+	text-shadow: 2px 3px 5px blue;
+	background-color: none;
+	font-size: 50px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+	table
+	{
+    text-align: justify;
+	}
+
+
+.blocos {
+	border: 1px solid blue	;
+	padding: 1em;
+	margin: 1em;
+	background-color: black;
+	opacity: 0.7;
+}
+#bloco-1{		
+	color: white;
+	box-shadow: 5px 5px 5px blue;
+}
+	
+#float {
+	height: 0px;
+	width:  0px;
+}
+#float img {
+	/* Flutuar: left, right, none, inherit */
+	/* Não afeta a altura do elemento pai */
+	float: left;
+}
+#float .clear {
+	/* Limpar: left, right, both, none */
+	clear: none;
+}
+#static img {
+	/* posicao: static, relative, fixed, absolute */
+	position: static; 
+}
+
+#translate:hover {
+	/* m - horizontal, n - vertical */
+	transform: translate(10px,10px);
+	-ms-transform: translate(10px,10px); /* IE 9 */
+	-webkit-transform: translate(10px,10px); /* Chrome, Safari, Opera */
+}
+
+
+
+
+.center {
+	
+	text-align: center;
+		}
+		
