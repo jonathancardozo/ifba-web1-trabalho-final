@@ -1,0 +1,1 @@
+Para cada seção cria uma pasta em minusculo sem acentos e espaços.
