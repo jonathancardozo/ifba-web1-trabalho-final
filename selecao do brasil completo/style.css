@@ -1,0 +1,122 @@
+body{
+	
+	background-image: url("imagens/brasil.jpg");
+	padding: 2em;
+	font-family: Arial, Helvetica;
+	font: 5px;
+	text-align: justify;
+
+	}
+h1{
+	color: white;
+	opacity: 0.8;
+}
+h3{
+	color:white;
+	opacity: 0.8;
+}
+h4{
+	color:white;
+	opacity: 0.8;
+
+}
+.caixas {
+	overflow: hidden;
+	color: black;
+	background-color: black;
+	opacity: 0.9;
+
+}
+#caixa-1 {
+	
+	border-style:double;
+	border-top-width: 5px;
+	border-top-color: black;
+	border-color: green;
+	color: white;
+	opacity: 0.8;
+	padding: 1em;
+
+}
+#caixa-2 {
+	
+	border-style:double;
+	border-top-width: 5px;
+	border-top-color: black;
+	border-color: green;
+	color: white;
+	padding: 1em;
+	text-align: center;
+
+}
+/* colocar cor da lista de convocados*/
+#meu_p {
+			color: red;
+
+		}
+
+/*esse foi usado para fazer a tela inicial*/
+#background_color {
+	width: auto;
+	height: 15vh;
+	border: 5px solid #FFFFFF;
+	color: white;
+	background-image: url("imagens/s1.jpg");
+	background-repeat: ;
+	text-align: center;
+
+	
+
+}
+/*tela inicial*/
+#menu_fixo {
+display:inline-block;
+position:fixed; width:100%;
+height:50px; 
+padding:0px 30px;
+text-align: center;
+top:-1px;
+left:0px;
+background:#000; 
+list-style:none;
+z-index:999;
+font-size:15px;
+-webkit-box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.4);
+box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.4);
+opacity: 0.8;
+}
+#menu_fixo li {
+display: inline;
+float:center;
+margin:0px 50px;
+height:41px; 
+line-height:41px; 
+-webkit-transition: all 200ms ease;
+-moz-transition: all 200ms ease;
+-ms-transition: all 200ms ease;
+-o-transition: all 200ms ease;
+transition: all 200ms ease;
+text-shadow: 1px 1px 3px #696969;
+filter: dropshadow(color=#696969, offx=1, offy=1);
+}
+#menu_fixo a {
+padding:0px 10px;
+color:#fff; 
+-webkit-transition: all 200ms ease;
+-moz-transition: all 200ms ease;
+-ms-transition: all 200ms ease;
+-o-transition: all 200ms ease;
+transition: all 200ms ease;
+}
+#menu_fixo li:hover {
+background: rgba(255,255,255,0.8); 
+border:1px solid #fff; 
+-webkit-box-shadow: 0px 0px 7px 1px #2288bb;
+box-shadow: 0px 0px 7px 1px #2288bb;
+}
+#menu_fixo li:hover a {
+color:#2288bb;
+text-decoration:none;
+text-shadow: 1px 1px 3px #f2f2f2;
+filter: dropshadow(color=#f2f2f2, offx=1, offy=1);
+}
