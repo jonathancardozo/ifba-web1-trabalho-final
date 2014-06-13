@@ -1,25 +1,28 @@
+/* folha de edicao do corpo, coloquei tbm a foto de background*/
 body {
 	font-family:  Century Gothic,sans-serif, Helvetica, Arial;
-	background-image:url("imagens/uruguai.jpg");
+	background-image:url("imagens/uruguaijogadores.jpg");
 	color: white;
 	width: 92vw;
 	margin: 1em;
 	padding: 2em;
-	border: 1px solid blue;	
+	border: 1px solid white;	
 	text-align: justify;	
+
 }
 
+/*todo h1 sendo modificado pq eu defini ai o h1, tipo ja esta predefinido q todo h1 vai ter esse estilo*/
 h1 
 	{
 	color:black;
 	text-transform: 150px white;
 	text-shadow: 5px 6px 10px blue;
 	background-color: none;
-	font-size: 50px;
+	font-size: 95px;
 	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Matura MT Script Capitals;
 	}
-
+/* igual o h1*/
 	h3
 	{
 	color:white;
@@ -31,19 +34,21 @@ h1
 	font-family: Arial, Helvetica, sans-serif;
 	}
 
+/*pra justificar uma tabela*/
 	table
 	{
     text-align: justify;
 	}
 
-
+/*blocos no qual coloquei um pouco de opacidade pra ficar visivel a letra*/
 .blocos {
-	border: 1px solid blue	;
+	border: 1px solid white	;
 	padding: 1em;
 	margin: 1em;
 	background-color: black;
-	opacity: 0.7;
+	opacity: 0.8;
 }
+/*efeito dos botoes*/
 #bloco-1{		
 	color: white;
 	box-shadow: 5px 5px 5px blue;
@@ -57,6 +62,7 @@ h1
 	/* Flutuar: left, right, none, inherit */
 	/* Não afeta a altura do elemento pai */
 	float: left;
+
 }
 #float .clear {
 	/* Limpar: left, right, both, none */
@@ -67,6 +73,7 @@ h1
 	position: static; 
 }
 
+/*pra a foto dar uma leve inclinada para o lado*/
 #translate:hover {
 	/* m - horizontal, n - vertical */
 	transform: translate(10px,10px);
@@ -76,9 +83,10 @@ h1
 
 
 
-
-.center {
+/*alinhar o texto*/
+.posicao {
 	
-	text-align: center;
+	text-align: left;
+	
 		}
 		
